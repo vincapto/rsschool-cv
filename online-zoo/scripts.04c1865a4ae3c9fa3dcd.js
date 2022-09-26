@@ -1,0 +1,2 @@
+(()=>{"use strict";var e=document.querySelector(".menu__list"),t=document.querySelector(".input-amount"),r=document.querySelector(".hamburger"),u=document.querySelector(".hamburger__button");document.querySelector(".logo-bar"),r.addEventListener("click",(function(t){u.classList.toggle("hamburger__button--close"),e.classList.toggle("menu__list--active")}));var n="";t.addEventListener("input",(function(e){e.preventDefault();var t=e.target.value;t.length<=4?(n=t,e.target.value=t):e.target.value=n}))})();
+//# sourceMappingURL=scripts.04c1865a4ae3c9fa3dcd.js.map
